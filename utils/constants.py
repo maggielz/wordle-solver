@@ -8,6 +8,7 @@ LONG_WORD_LIST_FILE = DATA_DIR + "allowed_words.txt"
 PATTERN_MATRIX_FILE = DATA_DIR + "pattern_matrix.npy"
 STARTING_ENTROPY_FILE = DATA_DIR + "starting_entropy.npy"
 NEXT_GUESS_CACHE_FILE = DATA_DIR + "next_guess_cache.pkl"
+GAME_CACHE_FILE = DATA_DIR + "game_cache.pkl"
 
 # character comparisons
 MISS = np.uint8(0)
